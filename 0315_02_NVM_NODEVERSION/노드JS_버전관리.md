@@ -1,7 +1,7 @@
 # 터미널
 ## 버전 목록 확인하기
 ```bash
-  nvm list available  
+  nvm list available
 ```
 ## 22.14.0 버전 설치하기
 ```bash
