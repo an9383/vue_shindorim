@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VUE 3.0 CDN</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  
+</head>
+<body>
+  <h1>Vue.js vue@3 CDN 사용하기</h1>
+  <div id="root">
+    <h2>{{title}}</h2>
+  </div>
+
+  <!--뷰 컨트롤러 Script-->
+  <script>
+    Vue.createApp({
+      data() {
+        return {
+          title:'뷰 컨테이너 타이틀 입니다.'
+        }
+      }
+    }).mount('#root');
+  </script>
+
+  <!--뷰 스타일 style-->
+  <style scoped>
+    h2 {
+      color: red;
+    }
+  </style>
+</body>
+</html>
